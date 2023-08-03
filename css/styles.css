@@ -1,0 +1,255 @@
+:root {
+  --logo-color: #4d5ae5;
+  --litext-color: #434455;
+}
+
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+
+nav > .link {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+}
+
+li > .link {
+  color: var(--litext-color);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul > .link {
+  color: var(--litext-color);
+  font-style: normal;
+}
+
+nav .list .link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link-send {
+  font-style: normal;
+}
+
+ul > .link:hover,
+ul > .link:focus {
+  color: #404bbf;
+}
+
+li > .link:hover,
+li > .link:focus {
+  color: #404bbf;
+}
+
+.logo {
+  color: #2e2f42;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list {
+  list-style: none;
+  color: #4f5543;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.main-screen {
+  background-color: #2e2f42;
+}
+
+.genneral {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.genneral-button {
+  font-weight: 500;
+  background-color: var(--logo-color);
+  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+}
+
+.genneral-button:hover,
+.genneral-button:focus {
+  background-color: #404bbf;
+}
+
+.list .mini-list {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.list .title-item {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.list .title-article {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.mini-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.our-people {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.hwo-they {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.foot {
+  background-color: #2e2f42;
+}
+
+footer > .link {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+}
+
+.logo-text {
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+}
+
+.info {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list > li > .menu {
+  color: var(--logo-color);
+  background-color: #f4f4fd;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.list > li > .menu:hover,
+.list > li > .menu:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.product > li > h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.product > li > p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.our-company {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.hwo-product {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
