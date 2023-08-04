@@ -3,6 +3,10 @@
   --litext-color: #434455;
 }
 
+img {
+  display: block;
+}
+
 body {
   color: #434455;
   background-color: #ffffff;
@@ -21,6 +25,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+
+.items-two {
+  width: calc((100% - 72px) / 4);
 }
 
 .tel-items {
@@ -393,7 +401,7 @@ footer > .link {
   cursor: pointer;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--border);
+  border: 1px solid #e7e9fc;
 }
 
 .menu:hover,
@@ -463,4 +471,8 @@ footer > .link {
 .card-info {
   padding: 32px 16px;
   border-top: none;
+}
+
+.section-main {
+  padding: 96px 0 120px 0;
 }
