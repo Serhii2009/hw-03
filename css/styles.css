@@ -57,6 +57,13 @@ body {
   display: flex;
 }
 
+.container-tittle-three {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: block;
+}
+
 nav > .link {
   color: var(--logo-color);
   font-family: 'Raleway', sans-serif;
@@ -198,7 +205,7 @@ ul {
   color: #434455;
 }
 
-.list .title-item {
+.title-item {
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
@@ -208,6 +215,21 @@ ul {
   margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
+  max-width: 264px;
+  width: calc((100% - 72px) / 4);
+}
+
+.three-section {
+  padding-bottom: 120px;
+}
+
+.list-three {
+  display: flex;
+  gap: 24px;
+}
+
+.list-three-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .two-section {
@@ -223,11 +245,6 @@ ul {
   margin-right: 0;
 }
 
-.title-item {
-  max-width: 264px;
-  width: calc((100% - 72px) / 4);
-}
-
 .visually {
   position: absolute;
   width: 1px;
@@ -241,7 +258,7 @@ ul {
   overflow: hidden;
 }
 
-.list .title-article {
+.title-article {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -259,6 +276,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team {
