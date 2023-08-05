@@ -266,7 +266,6 @@ ul {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .title-article {
@@ -335,7 +334,6 @@ ul {
 .foot {
   background-color: #2e2f42;
   padding: 100px 0;
-  margin-top: 120px;
 }
 
 .footer {
@@ -473,4 +471,9 @@ footer > .link {
   border-right: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.section-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
