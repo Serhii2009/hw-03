@@ -34,7 +34,7 @@ body {
 .tel-items {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
+  margin-left: auto;
 }
 
 .tel-link:last-child {
@@ -62,7 +62,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 
 .container-tittle {
@@ -167,7 +166,6 @@ ul {
 .main-screen {
   background-color: #2e2f42;
   padding: 188px 0;
-  margin-top: 41px;
 }
 
 .genneral {
@@ -221,10 +219,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
   margin-bottom: 8px;
-  max-width: 264px;
-  width: calc((100% - 72px) / 4);
 }
 
 .three-section {
@@ -334,12 +329,18 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 .foot {
   background-color: #2e2f42;
   padding: 100px 0;
   margin-top: 120px;
+}
+
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -352,7 +353,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 footer > .link {
@@ -473,8 +473,4 @@ footer > .link {
   border-right: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.section-main {
-  padding: 96px 0 120px 0;
 }
